@@ -8,6 +8,8 @@ def set_opt():
     parser.add_argument('--epochs', type=int, default=200, help='number of epochs')
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--learning_rate', type=float, default=1e-3)
+    parser.add_argument('--q_num', type=int)
+    parser.add_argument('--kc_num', type=int)
     parser.add_argument('--seed', type=int, default=1010)
     parser.add_argument('--gpu', type=str, default='1')
     parser.add_argument('--embed_dim', type=int, default=256)
@@ -16,10 +18,6 @@ def set_opt():
     parser.add_argument('--model', type=str, default='PSKT')
 
     opt = parser.parse_args()
-
-    if opt.dataset == 'assist12':
-        opt.q_num = 36458
-        opt.kc_num = 254
    
     print(opt)
     return opt
