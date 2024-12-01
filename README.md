@@ -1,6 +1,14 @@
 # PSKT(MM24)
 Source code and datasets for our paper (recently accepted in MM24): [Remembering is Not Applying: Interpretable Knowledge Tracing for Problem-solving Processes](https://doi.org/10.1145/3664647.3681049)
 
+## Relationship between problem-solving theory and PSKT
+Due to space limitations, we were unable to fully present the relationship between the problem-solving theory and PSKT in the main text. To address this, we have added a diagram to visually illustrate the correspondence between the components and the theory.  
+For detailed information, please refer to [`Relationship between theory and PSKT.md`](https://github.com/Oia-10/PSKT/blob/main/problem-solving%20theory/Relationship%20between%20theory%20and%20PSKT.md). 
+
+![problem-solving theory](https://github.com/user-attachments/assets/e35edcbe-22db-4e28-9799-cf2a9d34d285)
+
+
+
 ## Dataset
 - [ASSIST12](https://sites.google.com/site/assistmentsdata/2012-13-school-data-withaffect)
 - [ASSIST17](https://sites.google.com/view/assistmentsdatamining/dataset)
