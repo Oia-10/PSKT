@@ -10,7 +10,6 @@ from Q1_utils import *
 from Q2_trainUtils import *
 from Q3_dataload import *
 from Q4_model import *
-from Q5_train import *
 
 opt = set_opt()
 set_seed(opt.seed)
